@@ -1,8 +1,9 @@
-import LoginPage from "./pages/auth/Login/LoginPage";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import LoginPage from './pages/auth/Login/LoginPage';
 import SignUpPage from "./pages/auth/signup/SignUpPage";
 import HomePage from "./pages/home/HomePage";
 
-function App() {
+  export default function App() {
 	return (
 		<div className='flex max-w-6xl mx-auto'>
 			<Routes>
